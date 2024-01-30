@@ -6,3 +6,5 @@ let sre = 3;
 let cet = 4;
 let pet = 5;
 console.log(ime, skola, pon, uto, sre, cet, pet);
+var nesto = 'nesto'
+console.log(nesto);
