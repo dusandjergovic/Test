@@ -8,13 +8,21 @@ let pet = 5;
 console.log(ime, skola, pon, uto, sre, cet, pet);
 var nesto = 'nesto'
 console.log(nesto);
-let neki = ['bla', 'bla', 'bla']
- neki.forEach(neka => {
-    console.log(neka);
-});
+
 
 var proizvodi = ['maticna', 'ram', 'ssd'];
 console.log(proizvodi);
 proizvodi.pop();
 proizvodi.push('komp')
 console.log(proizvodi);
+
+//  DOMACI
+var korpa = {
+    SSD: 500,
+    'Maticna ploca': 450
+};
+console.log(korpa);
+korpa.ram = 300;
+korpa.kuciste = 250;
+korpa.grafika = 700;
+console.log(korpa);
